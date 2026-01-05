@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agencia de Viajes — Búsqueda de Vuelos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Buscador de Vuelos</h1>
+  <form id="searchForm">
+    <label>Origen <input type="text" id="origin" placeholder="SCL" required></label>
+    <label>Destino <input type="text" id="destination" placeholder="MIA" required></label>
+    <label>Fecha <input type="date" id="date" required></label>
+    <button type="submit">Buscar</button>
+  </form>
+
+  <section id="results">
+    <h2>Resultados</h2>
+    <table>
+      <thead><tr><th>Aerolínea</th><th>Origen</th><th>Destino</th><th>Fecha</th><th>Precio</th></tr></thead>
+      <tbody id="resultsBody"></tbody>
+    </table>
+  </section>
+
+  <script src="js/flightSearch.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "airline": "LATAM",
+    "origin": "SCL",
+    "destination": "MIA",
+    "date": "2026-02-01",
+    "price": 620
+  },
+  {
+    "airline": "Delta",
+    "origin": "SCL",
+    "destination": "ATL",
+    "date": "2026-02-01",
+    "price": 540
+  },
+  {
+    "airline": "American",
+    "origin": "SCL",
+    "destination": "MIA",
+    "date": "2026-02-02",
+    "price": 590
+  },
+  {
+    "airline": "Sky",
+    "origin": "SCL",
+    "destination": "LIM",
+    "date": "2026-02-03",
+    "price": 320
+  }
+]
